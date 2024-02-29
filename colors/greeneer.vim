@@ -1,16 +1,15 @@
 " vim:set ts=8 sts=2 sw=2 tw=0:
 "
-" matrix.vim - MATRIX like colorscheme.
+" greeneer.vim - Shades of dark green colorscheme.
 "
-" Maintainer:   MURAOKA Taro <koron@tka.att.ne.jp>
+" Maintainer:   Necronomimicon <necronomimicon@gmail.com>
 " Last Change:  10-Jun-2003.
 
 set background=dark
 hi clear
 if exists("syntax_on")
-  syntax reset
+	syntax reset
 endif
-let g:colors_name = 'matrix'
 
 " the character under the cursor
 hi Cursor       guifg=#226622 guibg=#55ff55
